@@ -17,7 +17,7 @@ Dependencies
 
 Usage:
 ------------
-    python3 papa.py [-h] [-c CITY]
+    python3 papa.py [-h] [-c CITY] [-o OUTPUT]
 
 See help (python3 papa.py -h) for detailed information.
 
