@@ -28,4 +28,6 @@ for i, icmp_reply in zip(range(0, len(stats.icmp_replies)), stats.icmp_replies):
         plt.bar(i, time, width=1, align='edge', color=(r_rate, 1, 0))
     else: plt.bar(i, time, width=1, align='edge', color=(1, g_rate, 0))
     print(icmp_reply)
+plt.title("rtt min/avg/max/mdev = {0}/{1}/{2}/{3} ms"
+    .format(stats_dict["rtt_min"], stats_dict["rtt_avg"], stats_dict["rtt_max"], stats_dict["rtt_mdev"]))
 plt.show()
