@@ -14,10 +14,11 @@ Dependencies
 * Python 3
 * Urllib module
 * Json module
+* PrettyTable - for pretty output
 
 Usage:
 ------------
-    python3 papa.py [-h] [-c CITY] [-o OUTPUT]
+    python3 papa.py [-h] [-c CITY] [-t TYPE] [-o OUTPUT]
 
 See help (python3 papa.py -h) for detailed information.
 
